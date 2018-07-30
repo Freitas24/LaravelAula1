@@ -27,3 +27,8 @@ Route::get('/', function () {
 
 //asfasf
 
+Route::get('/olamundo', function(){
+	return "Hello World!";
+});
+
+Route::get('pm2/{palavra}', 'StringsController@paramai');
